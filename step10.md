@@ -54,8 +54,7 @@ To add your own blog posts to `posts.json`, you will need to read the file from 
 You'll remember that `fs.readFile()` is the method responsible for reading files from your hard drive.  Well, `fs.writeFile()` is a method that allows you to write data into a file.
 
 ```js
-fs.writeFile('path/to/file', yourData, (error) {
-
+fs.writeFile('path/to/file', yourData, error => {
     // do something after the file has been written
 });
 ```
