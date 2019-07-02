@@ -32,7 +32,6 @@ function handler (request, response) {
 const server = http.createServer();
 
 server.listen(3000, () => {
-
     console.log("Server is listening on http://localhost:3000. Ready to accept requests!");
 });
 
