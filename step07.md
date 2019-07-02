@@ -34,12 +34,12 @@ In this context, a module is some code that you've written in its own JavaScript
 
 To connect one file with another, we use the same `require()` as with core modules. The only difference is we instead of:
 ```js
-var coreModule = require('nameOfModule');
+const coreModule = require('nameOfModule');
 ```
 
 we do this:
 ```js
-var myModule = require('path/to/my/file');
+const myModule = require('path/to/my/file');
 ```
 
 **Require your handler.js file into your server.js file**
