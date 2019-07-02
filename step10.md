@@ -7,36 +7,21 @@ We've included a front end JavaScript file in the public folder called `script.j
   <script src="./script.js" type="text/javascript"></script>
 ```
 
-You'll note that in the `src` folder there's a file called `posts.json`.
-
-JSON is a type of file for structuring data in a readable way. It is also a really popular format for sending data across the web.
-
-JSON is a string representation of a JavaScript object. JSON objects convert really easily to Javascript objects, and vice versa, with `JSON.parse()` and `JSON.stringify()`.
-
-For more details visit the links below in the keywords section.
-(If you're not sure about JavaScript objects, have a chat with your mentor and your team.)
-
-If you look at the `posts.json` file, you will see there's already one blog post there. The format is:
+You'll note that in the `src` folder there's a file called `posts.json`. This is where we will save our posts. If you look in the `posts.json` file, you will see there's already one blog post there. The format is:
 ```js
 {
     [timestamp]: [blog post message]
 }
 ```
 
-We've used a timestamp as the key so that the blog posts are listed in chronological order. Also, it's a record of when the blog post was created.
-
 
 **Your job now is:**
+1. **Handle the `script.js` request coming into the server** (from the line you added to your html)
 
-1. **Save your blog post data into `posts.json`**
+2. **Retrieve your posts from `posts.json` and send them back to `script.js`**
 
-2. **Handle the `script.js` request coming into the server**
+3. **Save new blog posts data into `posts.json`**
 
-3. **Retrieve all your posts and send them back to `script.js`**
-
-You can do these tasks in any order, but it might be easier to:
-1. first focus on loading the existing blog post in `posts.json`
-2. work out how to add new blog posts to `posts.json`
 
 ## Loading existing blog posts
 
@@ -47,9 +32,7 @@ The code in `script.js` is expecting to receive a JSON object. Remember your htt
 
 ## Saving data to a file
 
-At the moment, your blog posts are reaching the server, but aren't being saved anywhere.  They just disappear into a cloud of bits and bytes.  We need to find a way to save them so that you can retrieve them later.
-
-To add your own blog posts to `posts.json`, you will need to read the file from the hard drive, add to it, then write it back.
+At the moment, your blog posts are reaching the server, but aren't being saved anywhere. To add your own blog posts to `posts.json`, you will need to read the file from the hard drive, add to it, then write it back.
 
 You'll remember that `fs.readFile()` is the method responsible for reading files from your hard drive.  Well, `fs.writeFile()` is a method that allows you to write data into a file.
 
@@ -70,13 +53,6 @@ fs.writeFile('path/to/file', yourData, error => {
 ---
 
 If all the steps have gone well, you should have a fully functional CMS!
-
-Lastly, you can commit your final changes and push to github:
-```bash
-git add .
-git commit -m 'enter relevant message'
-git push origin master
-```
 
 
 🎉CONGRATULATIONS!!🎉
