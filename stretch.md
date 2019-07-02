@@ -38,7 +38,7 @@ Instead of writing to a file on your hard drive, you could save your blog posts 
 
 
 ### Host your blog online!
-Heroku is a what we call a *Platform as a Service*.  You upload your code to them and it will live on one of their servers, meaning you can access it on the general internet from anywhere!  
+Heroku is a what we call a *Platform as a Service*.  You upload your code to them and it will live on one of their servers, meaning you can access it on the general internet from anywhere!
 
 Heroku is good because they have a lot of free options for small-scale apps, like yours.
 

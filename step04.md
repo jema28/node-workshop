@@ -20,7 +20,7 @@ console.log(endpoint);
 
 ```
 
-All requests use one of the HTTP methods. The main ones are: `GET, POST, PUT, DELETE`.  
+All requests use one of the HTTP methods. The main ones are: `GET, POST, PUT, DELETE`.
 
 
 ### Check which method was used for your request.
@@ -45,7 +45,7 @@ Now you know how to send the message. How do you send a whole html page?
 
 You will see that we have a `public` folder with `index.html` and an image.
 
-To be able to send any file from the server we need a core node module called `fs` - **file system.** 
+To be able to send any file from the server we need a core node module called `fs` - **file system.**
 `Fs` allows you to **read and write** to and from your hard drive. Before we can send our `index.html`, our server first needs to read it.
 
 One of the `fs` methods is `fs.readFile('path to the file', callback);`. You can read more about `fs` [here](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options_callback).
@@ -79,7 +79,7 @@ function handler (request, response) {
 ```
 
 
-`__dirname` is a Node global object that gives you a path to current working directory. We can use this instead of writing the whole path. 
+`__dirname` is a Node global object that gives you a path to current working directory. We can use this instead of writing the whole path.
 
 ---
 ## Commit your changes

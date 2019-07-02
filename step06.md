@@ -1,6 +1,6 @@
 # Step 6 - Sending your blog post to your server
 
-So far we have been requesting data from our server. But we can also *send* data to the server.  
+So far we have been requesting data from our server. But we can also *send* data to the server.
 
 ### The `POST` http request method
 

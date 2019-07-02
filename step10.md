@@ -49,7 +49,7 @@ The code in `script.js` is expecting to receive a JSON object. Remember your htt
 
 At the moment, your blog posts are reaching the server, but aren't being saved anywhere.  They just disappear into a cloud of bits and bytes.  We need to find a way to save them so that you can retrieve them later.
 
-To add your own blog posts to `posts.json`, you will need to read the file from the hard drive, add to it, then write it back.  
+To add your own blog posts to `posts.json`, you will need to read the file from the hard drive, add to it, then write it back.
 
 You'll remember that `fs.readFile()` is the method responsible for reading files from your hard drive.  Well, `fs.writeFile()` is a method that allows you to write data into a file.
 
@@ -84,7 +84,7 @@ git push origin master
 ===
 
 
-Want more?  Then head over to...  
+Want more?  Then head over to...
 
 ## [**Stretch goals >>> **](stretch.md)
 ---
