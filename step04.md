@@ -62,7 +62,6 @@ const http = require('http');
 const fs = require('fs');
 
 function handler (request, response) {
-
   if (endpoint === "/") {
     response.writeHead(200, {"Content-Type": "text/html"});
 
