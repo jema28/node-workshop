@@ -20,16 +20,16 @@ We are now making a handler function with a custom message in our response. You 
 
 
 ```js
-var http = require('http');
+const http = require('http');
 
-var message = 'I am so happy to be part of the Node Girls workshop!';
+const message = 'I am so happy to be part of the Node Girls workshop!';
 
 function handler (request, response) {
 
 }
 
 
-var server = http.createServer();
+const server = http.createServer();
 
 server.listen(3000, function () {
 
@@ -64,7 +64,7 @@ The createServer() method takes a handler function as an argument.
 **Pass your handler function to createServer method**
 
 ```js
-var server = http.createServer(handler);
+const server = http.createServer(handler);
 
 ```
 
