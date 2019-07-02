@@ -15,7 +15,7 @@ There is a particular method on the request object that allows you to see the en
 **Inside your handler function, at the top, add the following:**
 
 ```js
-var endpoint = request.url;
+const endpoint = request.url;
 console.log(endpoint);
 
 ```
@@ -28,7 +28,7 @@ All requests use one of the HTTP methods. The main ones are: `GET, POST, PUT, DE
 **Type inside your handler function at the top :**
 
 ```js
-var method = request.method;
+const method = request.method;
 console.log(method);
 
 ```
@@ -58,8 +58,8 @@ Let's try it.
 **Require `fs` module at the top of your file**
 
 ```js
-var http = require('http');
-var fs = require('fs');
+const http = require('http');
+const fs = require('fs');
 
 function handler (request, response) {
 
