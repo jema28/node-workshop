@@ -68,10 +68,8 @@ function handler (request, response) {
 
     fs.readFile(__dirname + '/public/index.html', function(error, file) {
       if (error) {
-        console.log(error);
-        return;
+        return console.log(error);
       }
-
       response.end(file);
     });
   }
