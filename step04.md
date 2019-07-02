@@ -66,7 +66,7 @@ function handler (request, response) {
   if (endpoint === "/") {
     response.writeHead(200, {"Content-Type": "text/html"});
 
-    fs.readFile(__dirname + '/public/index.html', function(error, file) {
+    fs.readFile(`${__dirname}/public/index.html`, (error, file) => {
       if (error) {
         return console.log(error);
       }
