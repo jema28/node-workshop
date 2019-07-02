@@ -28,16 +28,8 @@ So now you're going to add one more route to your handler function, and that rou
 
 ```js
 if (endpoint === '/') {
-
     // ...
-} else if (endpoint === '/node') {
-
-    //...
-} else if (endpoint === '/girls') {
-
-    //...
 } else {
-
     // TODO - write your generic endpoint code here
 }
 ```
