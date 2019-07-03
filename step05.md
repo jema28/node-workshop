@@ -23,9 +23,11 @@ Luckily, you don't need to write specific routes for everything.  You can write 
 
 So now you're going to add one more route to your handler function, and that route should be able to successfully respond with both the `image.jpg` and `main.css` files, plus any other files that might be in public folder.
 
-Hints: 
+Hints:
+* Use ```split()``` to get the extension of the url
 * Check if your url has `public` in it, check the extension and serve the relevant files using `fs.readFile`. Look back at the morning code along to see how this works.
 * When sending back the response, you'll want to alter the information in your header (`response.writeHead(200, {"Content-Type": "text/html"});` to the relevant filetype.
+* If the file is image/css the header should be meet with and handle the extension of the file.
 
 ---
 ## Commit your changes
