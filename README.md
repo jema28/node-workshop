@@ -32,7 +32,6 @@ There is also a link to the general Node Girls cheatsheet under Useful links at 
 * [Step 8 - get ready for the CMS project](step08.md)
 * [Step 9 - build the CMS](step09.md)
 * [Step 10 - save your blog posts](step10.md)
-* [stretch - stretch goals](stretch.md)
 
 ## Useful links
 * [What is Node?](https://github.com/node-girls/what-is-node)
