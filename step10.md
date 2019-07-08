@@ -57,11 +57,6 @@ If all the steps have gone well, you should have a fully functional CMS!
 
 🎉CONGRATULATIONS!!🎉
 ===
-
-
-Want more?  Then head over to...
-
-## [**Stretch goals >>> **](stretch.md)
 ---
 ## Keywords
 * [JSON](http://www.w3schools.com/js/js_json.asp)
