@@ -7,7 +7,9 @@ Run the server to see what the CMS looks like!
 
 Fix it!
 
-Your job is to write a new server and handler. You'll serve the public assets and handle any embedded requests in the `index.html`.
+Your job is to write a new server and handler. You'll serve the public assets and handle any embedded requests in the `index.html`. 
+
+Hint: make sure you look the paths in the html so you understand what url coming into the server is.
 
 
 Good luck! Remember, work with your team and chat with your mentor!
